@@ -21,4 +21,4 @@ jobs:
         uses: chromaui/action@latest
         with:
           # ⚠️ Make sure to configure a `CHROMATIC_PROJECT_TOKEN` repository secret
-          projectToken: chpt_e8f112f9915f9ed
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
